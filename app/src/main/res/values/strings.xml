@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string name="title_activity_toolbar">ToolbarActivity</string>
+    <string name="title_activity_option_menu">OptionMenuActivity</string>
+</resources>
