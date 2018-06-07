@@ -5,10 +5,25 @@
         android:id="@+id/new_game"
         android:icon="@drawable/add"
         android:title="Add"
-        app:showAsAction="ifRoom|withText" />
+        app:showAsAction="withText" />
     <item
         android:id="@+id/help"
         android:icon="@drawable/helpicon"
         android:title="help"
-        app:showAsAction="ifRoom|withText" />
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/help0"
+        android:icon="@drawable/helpicon"
+        android:title="help0"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/help1"
+        android:icon="@drawable/helpicon"
+        android:title="help1"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/help2"
+        android:icon="@drawable/helpicon"
+        android:title="help2"
+        app:showAsAction="withText" />
 </menu>

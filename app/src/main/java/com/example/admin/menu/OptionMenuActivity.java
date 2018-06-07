@@ -32,18 +32,32 @@ public class OptionMenuActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_main, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    /* @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_main, menu);
 
         // return true so that the menu pop up is opened
         return true;
-    }
+    }*/
 
-    @Override
+
+
+     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         Toast.makeText(this, item.getTitle(), Toast.LENGTH_SHORT).show();
         switch (item.getItemId()) {
             case R.id.new_game:
+
+
+
                 return true;
             case R.id.help:
 

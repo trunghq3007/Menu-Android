@@ -23,6 +23,11 @@
         <activity
             android:name=".OptionMenuActivity"
             android:label="@string/title_activity_option_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ContextMenuActivity" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
